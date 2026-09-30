@@ -1,0 +1,16 @@
+prompts/
+.agent/
+
+# Local lab resources that must remain outside Git history.
+lab/ISO/
+lab/VMware/**/*.vmem
+lab/VMware/**/*.vmsn
+lab/VMware/**/*.vmsd
+lab/VMware/**/*.vmdk
+lab/VMware/**/*.nvram
+lab/VMware/**/*.vmx.lck/
+lab/PCAP/*.pcap
+lab/PCAP/*.pcapng
+lab/Backups/
+
+.env
