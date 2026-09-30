@@ -1,16 +1,14 @@
-prompts/
+# Coding agent local context
 .agent/
+prompts/
+AGENTS.md
 
 # Local lab resources that must remain outside Git history.
 lab/ISO/
-lab/VMware/**/*.vmem
-lab/VMware/**/*.vmsn
-lab/VMware/**/*.vmsd
-lab/VMware/**/*.vmdk
-lab/VMware/**/*.nvram
-lab/VMware/**/*.vmx.lck/
+lab/VMware/
 lab/PCAP/*.pcap
 lab/PCAP/*.pcapng
 lab/Backups/
 
+# Secrets
 .env
